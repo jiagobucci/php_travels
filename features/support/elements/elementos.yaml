@@ -1,0 +1,9 @@
+#Acesso url
+url : "https://phptravels.net/"
+
+#Tela de consulta hotel
+Consulta_campo_local: ".select2-selection__rendered"
+Consulta_campo_checkin: "checkin"
+Consulta_campo_checkout: "checkout"
+Consulta_campo_buscar: ".mdi mdi-search"
+

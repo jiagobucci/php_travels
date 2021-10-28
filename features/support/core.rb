@@ -9,5 +9,6 @@ class Core
     def validar_elemento(nome_elemento, texto)
       expect(find(ELEMENTS[nome_elemento]).text).to eq texto
     end
-    
+
+       
 end

@@ -1,5 +1,5 @@
 Before do
-    @cadastro=Cadastro.new
+    @hotel=Hotel.new
     
 end
 
