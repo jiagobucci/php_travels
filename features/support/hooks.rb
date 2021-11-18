@@ -1,4 +1,5 @@
 Before do
+    current_window.maximize
     @hotel=Hotel.new
     
 end

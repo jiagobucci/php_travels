@@ -3,12 +3,18 @@ Dado('que acesso o site de viagem php travels') do
 end
       
 Dado('escolho o local de viagem') do
+   
     @hotel.pesquisa_hotel
-    sleep 5
+    
+    # click_button "Search"
+   
+    
+    
 end
       
       Dado('a data de checkin') do
-        pending # Write code here that turns the phrase above into concrete actions
+        @hotel.escolher_data
+        sleep 5
       end
       
       Dado('a data de checkout') do

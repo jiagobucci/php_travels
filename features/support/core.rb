@@ -10,5 +10,9 @@ class Core
       expect(find(ELEMENTS[nome_elemento]).text).to eq texto
     end
 
+    def clicar_elemento(nome_campo)
+      find(ELEMENTS[nome_campo]).click
+    end
+
        
 end
